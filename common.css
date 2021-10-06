@@ -88,6 +88,6 @@ span {
   font-style: italic;
 }
 
-h1:first-child {
-  text-transform: capitalize;
+h2:first-child {
+  text-decoration: none;
 }
