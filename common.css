@@ -54,15 +54,11 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding: 0.2vw;
-  transition: ease-in-out;
 }
 
-.navbar:first-child {
-  background-color: rgb(59, 26, 4);
-}
-
-.navbar-title:hover {
+div:first-child {
   transform: scale(1.1, 1.1);
+  transition: ease-in-out;
 }
 
 a {
