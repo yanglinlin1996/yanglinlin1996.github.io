@@ -55,6 +55,10 @@ body {
   justify-content: flex-start;
 }
 
+.navbar-title:hover {
+  transform: scale(2, 2);
+}
+
 a {
   font-size: 2vw;
   color: rgb(59, 26, 4);
