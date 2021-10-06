@@ -1,0 +1,82 @@
+#home-header {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+div {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: peru;
+  font-size: 1vw;
+}
+
+body {
+  background-color: rgb(247, 232, 205);
+}
+
+@media screen and (min-width: 2160px) {
+  .navbar {
+    top: 0;
+  }
+}
+
+.navbar {
+  bottom: 0;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(148, 103, 60);
+  z-index: 20;
+}
+
+.navbar-box {
+  width: 10vw;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 0.1vw solid gray;
+  border-radius: 0.5vw;
+  margin: 1vw;
+}
+
+.navbar-title {
+  width: 30vw;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+a {
+  font-size: 2vw;
+  color: rgb(59, 26, 4);
+}
+
+a:hover {
+  color: seagreen;
+  cursor: pointer;
+}
+
+.body-text {
+  margin-top: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  text-decoration: underline overline;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
