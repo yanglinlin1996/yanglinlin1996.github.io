@@ -53,12 +53,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 0.2vw;
 }
 
-div:first-child {
-  transform: scale(1.1, 1.1);
-  transition: ease-in-out;
+.navbar-title:hover {
+  color: olive;
 }
 
 a {
@@ -78,6 +76,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0.5vw;
 }
 
 h2 {
