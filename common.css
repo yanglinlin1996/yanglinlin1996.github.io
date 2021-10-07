@@ -89,5 +89,5 @@ span {
 }
 
 h1:first-child {
-  text-transform: capitalize;
+  transform: scaleY(1.5);
 }

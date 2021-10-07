@@ -38,3 +38,12 @@ img {
   margin-top: 8vh;
   padding: 1vh;
 }
+
+.intro {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 10vh;
+}
